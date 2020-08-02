@@ -72,8 +72,8 @@
 				69AB4C7A24D5AC3B0002DCE1 /* ResultViewController.swift */,
 				69B32D0724D40CF50042BBA9 /* Assets.xcassets */,
 				69B32D0924D40CF50042BBA9 /* LaunchScreen.storyboard */,
-				69B32D1224D414AB0042BBA9 /* topic.swift */,
 				69B4471324D4159F001D02DA /* Quiz.swift */,
+				69B32D1224D414AB0042BBA9 /* topic.swift */,
 				69B32D0C24D40CF50042BBA9 /* Info.plist */,
 			);
 			path = quizDemo;
