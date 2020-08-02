@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694C939D24D5CB51007D8DB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C939C24D5CB51007D8DB4 /* LoginViewController.swift */; };
+		69792B2324D452E700F55DB2 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69792B2224D452E700F55DB2 /* QuizViewController.swift */; };
+		69AB4C7B24D5AC3B0002DCE1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AB4C7A24D5AC3B0002DCE1 /* ResultViewController.swift */; };
 		69B32CFF24D40CF30042BBA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B32CFE24D40CF30042BBA9 /* AppDelegate.swift */; };
 		69B32D0124D40CF30042BBA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B32D0024D40CF30042BBA9 /* SceneDelegate.swift */; };
-		69B32D0324D40CF30042BBA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B32D0224D40CF30042BBA9 /* ViewController.swift */; };
 		69B32D0624D40CF30042BBA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B32D0424D40CF30042BBA9 /* Main.storyboard */; };
 		69B32D0824D40CF50042BBA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B32D0724D40CF50042BBA9 /* Assets.xcassets */; };
 		69B32D0B24D40CF50042BBA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B32D0924D40CF50042BBA9 /* LaunchScreen.storyboard */; };
+		69B32D1324D414AB0042BBA9 /* topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B32D1224D414AB0042BBA9 /* topic.swift */; };
+		69B4471424D4159F001D02DA /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B4471324D4159F001D02DA /* Quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		694C939C24D5CB51007D8DB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		69792B2224D452E700F55DB2 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		69AB4C7A24D5AC3B0002DCE1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		69B32CFB24D40CF30042BBA9 /* quizDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B32CFE24D40CF30042BBA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B32D0024D40CF30042BBA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69B32D0224D40CF30042BBA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69B32D0524D40CF30042BBA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69B32D0724D40CF50042BBA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69B32D0A24D40CF50042BBA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69B32D0C24D40CF50042BBA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B32D1224D414AB0042BBA9 /* topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topic.swift; sourceTree = "<group>"; };
+		69B4471324D4159F001D02DA /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +66,14 @@
 			children = (
 				69B32CFE24D40CF30042BBA9 /* AppDelegate.swift */,
 				69B32D0024D40CF30042BBA9 /* SceneDelegate.swift */,
-				69B32D0224D40CF30042BBA9 /* ViewController.swift */,
 				69B32D0424D40CF30042BBA9 /* Main.storyboard */,
+				69792B2224D452E700F55DB2 /* QuizViewController.swift */,
+				694C939C24D5CB51007D8DB4 /* LoginViewController.swift */,
+				69AB4C7A24D5AC3B0002DCE1 /* ResultViewController.swift */,
 				69B32D0724D40CF50042BBA9 /* Assets.xcassets */,
 				69B32D0924D40CF50042BBA9 /* LaunchScreen.storyboard */,
+				69B32D1224D414AB0042BBA9 /* topic.swift */,
+				69B4471324D4159F001D02DA /* Quiz.swift */,
 				69B32D0C24D40CF50042BBA9 /* Info.plist */,
 			);
 			path = quizDemo;
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B32D0324D40CF30042BBA9 /* ViewController.swift in Sources */,
+				694C939D24D5CB51007D8DB4 /* LoginViewController.swift in Sources */,
+				69B4471424D4159F001D02DA /* Quiz.swift in Sources */,
+				69B32D1324D414AB0042BBA9 /* topic.swift in Sources */,
+				69792B2324D452E700F55DB2 /* QuizViewController.swift in Sources */,
 				69B32CFF24D40CF30042BBA9 /* AppDelegate.swift in Sources */,
 				69B32D0124D40CF30042BBA9 /* SceneDelegate.swift in Sources */,
+				69AB4C7B24D5AC3B0002DCE1 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
